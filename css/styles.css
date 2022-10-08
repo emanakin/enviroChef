@@ -1,0 +1,174 @@
+#title {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom right, #93e5a0, #46cf5b);
+    border-radius: 0 0 43% 0%;
+
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+ 
+}
+
+p {
+    font-weight: 300;
+}
+
+.container-fluid {
+    padding: 0% 10% 0% 10%;
+}
+
+h1 {
+    
+    line-height: 1.5;
+    font-weight: 500;
+    color: white;
+}
+
+h2{
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.CallToAction {
+    font-size: 45px;
+}
+
+.shadow {
+    filter: drop-shadow(10px 10px 10px #aeeab7);
+}
+
+/* Nav Bar */
+
+.navbar {
+    padding-bottom: 1rem;
+}
+
+.navbar-picture {
+    width: 65px;
+    position: relative;
+    left: 14px;
+    bottom: 4px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Front Page */
+
+.padding-phone {
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    .padding-phone {
+        padding-right: 0px;
+        text-align: center;
+    }
+ }
+
+.downlaod-button {
+    margin: 15px 20px 0px 0px;
+}
+
+/* Features */
+
+.feat-center {
+    margin: 100px 0 100px 0;
+}
+
+.icon-style {
+    font-size: 70px;
+    margin-bottom: 1rem;
+}
+
+.icon-style:hover {
+    color: rgb(81, 81, 81);
+}
+
+/* Testimoninials */
+
+#testimonials {
+    
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #46cf5b, #93e5a0);
+    /* border-radius: 14% 3% 14% 3%; */
+    color: white;
+}
+
+.marg-extend {
+    margin-top: 80px;
+}
+
+.carousel-item {
+    padding: 0% 10% 0% 10%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#Press {
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.press-logos {
+    width: 12%;
+    margin: 2rem;
+}
+
+/* Pricing */
+
+#pricing {
+    margin-top: 65px;
+    padding: 0% 10% 0% 10%;
+    text-align: center;
+}
+
+.price-title {
+    text-align: center;
+    font-weight: 600;
+
+}
+ .btn-lg {
+    width: 80%;
+ }
+
+/* Call to Action*/
+
+#cta {
+    text-align: center;
+    margin-top: 35px;
+    padding: 0% 10% 0% 10%;
+    background-image: linear-gradient(to bottom right, #46cf5b, #93e5a0);
+    /* border-radius: 14% 3% 14% 3%; */
+}
+
+.cta-pad {
+    padding: 100px 100px 100px 100px;
+}
+
+.cta-text {
+    color: white;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 100px;
+}
